@@ -12,6 +12,7 @@
 | `matlab/coupling/` | `kappa_cal.m`, `单链t+a,t-a循环变t.m` | Coupling-constant calibration and single-chain hopping modulation |
 | `matlab/model-compare/` | `Model_cmp_dimensionless.m`, `model_comparision.m` | Dimensionless comparison of the three model variants (final-state distributions, evolution heatmaps) |
 | `comsol/` | `MODELS.md` | COMSOL multiphysics models of 1/2/8/9-waveguide arrays (`.mph`, kept out of git) |
+| `python/` | NumPy/SciPy port + Jupyter tutorial | Clean-room Python reimplementation with English labels |
 | `paper/` | `CITATION.md` | Citation info of the companion review article |
 
 ## Physics in one paragraph
@@ -34,6 +35,8 @@ octave matlab/model-compare/Model_cmp_dimensionless.m
 ```
 
 Each script self-contained (Hamiltonian construction and solvers are local functions inside the file).
+
+**Python port** (NumPy/SciPy, English labels, Jupyter tutorial): see [`python/`](python/README.md).
 
 ## Sample results
 
