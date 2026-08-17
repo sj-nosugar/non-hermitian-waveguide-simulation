@@ -18,6 +18,7 @@ pip install numpy scipy matplotlib jupyter
 | `run_demo.py` | Reproduces the Model-a pipeline: spectrum, PT breaking, time evolution, heatmap, zero modes |
 | `compare_variants.py` | Complex spectra + final-state localization for variants a/b/c |
 | `tutorial.ipynb` | Interactive Jupyter tutorial (physics → code → figures) |
+| `tutorial_defect_states.ipynb` | Deep dive: mid-gap defect state vs γ (Lang 2018), non-unitary evolution, skin effect vs gain/loss |
 
 ## Run
 

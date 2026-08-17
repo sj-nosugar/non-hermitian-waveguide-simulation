@@ -47,6 +47,17 @@ Each script self-contained (Hamiltonian construction and solvers are local funct
 | **Model a — final-state probability** (N=10, γ=0, J1=0.5, J2=1.5): probability localizes at the central lattice site (0.70), characteristic of the bound state in the 4N+1 geometry | ![Model a final state](figures/Model-a-final.png) |
 | **Model comparison** — final-state distributions of variants a/b/c side by side | ![Model comparison](figures/Model-final-comparison.png) |
 
+### Python port figures (English labels)
+
+The NumPy port adds a PT-breaking scan and variant comparison (see [`python/`](python/README.md)):
+
+| | |
+|---|---|
+| **PT-symmetry breaking** — complex spectrum as gain/loss γ grows: eigenvalues leave the real axis | ![PT breaking scan](python/examples/spectrum_complex.png) |
+| **Variant comparison** — complex spectra of a/b/c at γ=2.5 | ![Variant spectra](python/examples/variants_spectra.png) |
+
+A **deep-dive notebook** reproduces the Lang et al. (2018) physics — the mid-gap defect state pinned to zero real energy that acquires an imaginary part, its localization-length divergence (disappearance into the continuum), non-unitary amplification, and a contrast between skin effect (non-reciprocal hoppings) and gain/loss: [`python/tutorial_defect_states.ipynb`](python/tutorial_defect_states.ipynb).
+
 ## Why this matters for my research direction
 
 This project sits at the intersection of **wave physics + numerical modeling + machine learning**: (1) non-Hermitian/photonic systems are my M.Sc. core; (2) the toolbox demonstrates hands-on Hamiltonian-level simulation; (3) the natural next step is learning the dynamics *data-driven* — see [my Neural ODE project](https://github.com/sj-nosugar/neutral-ode-double-pendulum) (chaotic double pendulum, physics→data→NODE→MPC) and the planned extension: *Neural ODE for non-Hermitian waveguide dynamics*.
