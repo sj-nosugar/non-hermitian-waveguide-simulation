@@ -40,12 +40,15 @@ Default parameters give a **complete bandgap between band 1 and 2** at
 
 ## Notes / limitations
 
+- This module is a **note-style tutorial** (入门手册): the write-up and code were
+generated in an AI-assisted session following the author's own logic, then
+reviewed and numerically verified by the author (bandgap Δ(a/λ) ≈ 0.10 reproduced
+independently). It is a learning artifact, not a research contribution.
 - **TE polarization only** (TM needs a different matrix form — see section 2.2 of
-  the original write-up).
+the original write-up).
 - Plane-wave cutoff N=5 (121 waves) is fine for the lowest bands; increase for
-  converged higher bands.
-- This is a **learning implementation** of the standard method (Joannopoulos et
-  al., *Photonic Crystals*, 2008); it is not part of the published review article.
+converged higher bands.
+- Reference text: Joannopoulos et al., *Photonic Crystals* (2008).
 
 ## Extensions
 
