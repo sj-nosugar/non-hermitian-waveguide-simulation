@@ -4,6 +4,10 @@
     Xu et al., "Electrical circuit simulation of non-Hermitian lattice
     models", Acta Phys. Sin. 72, 200301 (2023).
 
+The 4N+1 geometry is a numerical realization of the complex SSH (cSSH)
+model of Lang et al., Phys. Rev. B 98, 094307 (2018) — two SSH/cSSH
+domains joined at a central defect site b_N (see paper/CITATIONS.md).
+
 Model variants
 --------------
 'a' : same-phase PT parts (a_n: -iγ, b_n: +iγ throughout; b_N lossless)

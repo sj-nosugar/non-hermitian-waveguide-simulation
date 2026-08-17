@@ -13,11 +13,13 @@
 | `matlab/model-compare/` | `Model_cmp_dimensionless.m`, `model_comparision.m` | Dimensionless comparison of the three model variants (final-state distributions, evolution heatmaps) |
 | `comsol/` | `MODELS.md` | COMSOL multiphysics models of 1/2/8/9-waveguide arrays (`.mph`, kept out of git) |
 | `python/` | NumPy/SciPy port + Jupyter tutorial | Clean-room Python reimplementation with English labels |
-| `paper/` | `CITATION.md` | Citation info of the companion review article |
+| `paper/` | `CITATIONS.md` | Citations: companion review (Xu 2023) + model source (Lang 2018) |
 
-## Physics in one paragraph
+## Physics in two paragraphs
 
-The optics–quantum analogy maps paraxial light propagation in waveguide arrays onto the Schrödinger equation, making photonic lattices a classical emulator of tight-binding quantum models. Non-Hermitian extensions — complex on-site potentials (PT symmetry) or non-reciprocal hoppings (skin effect) — break the usual bulk-boundary correspondence and produce phenomena absent in Hermitian systems. The SSH chain is the canonical starting point; the 4N+1-site construction used here adds gain/loss terms and studies how the complex spectrum, edge states, and localization (IPR) respond.
+**The cSSH model (model provenance).** The complex SSH (cSSH) chain — an SSH lattice with alternating on-site gain/loss $\pm i\gamma$ — was introduced by **Lang et al., Phys. Rev. B 98, 094307 (2018)** (my M.Sc. advisor L.-J. Lang, with Y. D. Chong's group at NTU). That paper showed that the topological SSH mid-gap defect state, localized at the interface between two cSSH domains, behaves anomalously under strong non-Hermiticity: it can *disappear into the complex continuum*, or undergo a spontaneous composite sublattice/time-reversal (ST) symmetry breaking at an exceptional point, producing a *pair* of defect states continuable to the non-topological SSH defect states. The 4N+1-site chains in this repository are numerical realizations of that two-domain geometry — two SSH/cSSH halves joined at a central defect site $b_N$ — with the three variants `a`/`b`/`c` corresponding to different gain/loss phase patterns (same-phase PT, anti-phase PT, anti-phase with $b_N$ gaining).
+
+**Why circuit simulation (the review).** The optics–quantum analogy maps paraxial light propagation in waveguide arrays onto the Schrödinger equation, making photonic lattices classical emulators of tight-binding models. Classical **circuits** are a particularly flexible emulator — they can implement arbitrary hoppings and on-site terms, including the non-reciprocal couplings and gain/loss required for non-Hermitian models. I surveyed this field in my first-author review, *Electrical circuit simulation of non-Hermitian lattice models* (Acta Phys. Sin. 72, 200301 (2023)), covering circuit–lattice mapping theory and experimental progress on PT symmetry, skin effect, and non-Hermitian topology. This repository's simulations were built while writing that review, as a hands-on bridge between my advisor's theory (Lang 2018) and the experimental landscape the review describes.
 
 ## Run it
 

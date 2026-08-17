@@ -43,6 +43,9 @@ jupyter notebook tutorial.ipynb
 | `b` | anti-phase (second half flipped) | 0 (lossless) |
 | `c` | anti-phase | +iγ (gain) |
 
+The two-domain geometry and its defect-state physics follow the cSSH model of
+Lang et al., PRB 98, 094307 (2018) — see [`paper/CITATIONS.md`](../paper/CITATIONS.md).
+
 ## Numerical check
 
 The self-check verifies: (1) Hamiltonian dimension 4N+1; (2) real spectrum at
