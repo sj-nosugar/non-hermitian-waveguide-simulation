@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite the cSSH model paper (Lang et al. 2018) and, where relevant, the companion review (Xu et al. 2023)."
+title: "Non-Hermitian Waveguide Simulation: 4N+1-site SSH toolbox"
+authors:
+  - family-names: Xu
+    given-names: Canhong
+date-released: 2026-08-17
+version: 1.0.0
+license: MIT
+keywords:
+  - non-Hermitian physics
+  - SSH model
+  - PT symmetry
+  - waveguide arrays
+  - numerical simulation
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Lang
+      given-names: Li-Jun
+    - family-names: Wang
+      given-names: You
+    - family-names: Wang
+      given-names: Hailong
+    - family-names: Chong
+      given-names: Y. D.
+  title: "Effects of non-Hermiticity on Su-Schrieffer-Heeger defect states"
+  journal: "Physical Review B"
+  volume: 98
+  number: 9
+  pages: "094307"
+  year: 2018
+  doi: "10.1103/PhysRevB.98.094307"
+references:
+  - type: article
+    authors:
+      - family-names: Xu
+        given-names: Canhong
+      - family-names: Xu
+        given-names: Zhicong
+      - family-names: Zhou
+        given-names: Ziyu
+      - family-names: Cheng
+        given-names: Enhong
+      - family-names: Lang
+        given-names: Li-Jun
+    title: "Electrical circuit simulation of non-Hermitian lattice models"
+    journal: "Acta Physica Sinica"
+    volume: 72
+    number: 20
+    pages: "200301"
+    year: 2023
+    doi: "10.7498/aps.72.20230914"

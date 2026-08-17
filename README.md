@@ -62,6 +62,15 @@ A **deep-dive notebook** reproduces the Lang et al. (2018) physics — the mid-g
 
 This project sits at the intersection of **wave physics + numerical modeling + machine learning**: (1) non-Hermitian/photonic systems are my M.Sc. core; (2) the toolbox demonstrates hands-on Hamiltonian-level simulation; (3) the natural next step is learning the dynamics *data-driven* — see [my Neural ODE project](https://github.com/sj-nosugar/neutral-ode-double-pendulum) (chaotic double pendulum, physics→data→NODE→MPC) and the planned extension: *Neural ODE for non-Hermitian waveguide dynamics*.
 
+## Citation
+
+If you use this repository or its code in your research, please cite:
+
+- **L.-J. Lang, Y. Wang, H. Wang, Y. D. Chong**, *Effects of non-Hermiticity on Su-Schrieffer-Heeger defect states*, Phys. Rev. B 98, 094307 (2018) — the cSSH model this toolbox implements
+- **C. Xu et al.**, *Electrical circuit simulation of non-Hermitian lattice models*, Acta Phys. Sin. 72, 200301 (2023) — companion review (first author)
+
+BibTeX in [`paper/CITATIONS.md`](paper/CITATIONS.md). This repository is part of the author's ongoing research; the numerical work here is an independent implementation for studying the published physics above.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
