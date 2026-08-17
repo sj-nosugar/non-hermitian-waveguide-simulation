@@ -13,6 +13,7 @@
 | `matlab/model-compare/` | `Model_cmp_dimensionless.m`, `model_comparision.m` | Dimensionless comparison of the three model variants (final-state distributions, evolution heatmaps) |
 | `comsol/` | `MODELS.md` | COMSOL multiphysics models of 1/2/8/9-waveguide arrays (`.mph`, kept out of git) |
 | `python/` | NumPy/SciPy port + Jupyter tutorial | Clean-room Python reimplementation with English labels |
+| `pwe/` | Plane-wave expansion band-structure solver | Complementary continuous-medium method (2D photonic crystals) |
 | `paper/` | `CITATIONS.md` | Citations: companion review (Xu 2023) + model source (Lang 2018) |
 
 ## Physics in two paragraphs
@@ -61,6 +62,8 @@ A **deep-dive notebook** reproduces the Lang et al. (2018) physics — the mid-g
 ## Why this matters for my research direction
 
 This project sits at the intersection of **wave physics + numerical modeling + machine learning**: (1) non-Hermitian/photonic systems are my M.Sc. core; (2) the toolbox demonstrates hands-on Hamiltonian-level simulation; (3) the natural next step is learning the dynamics *data-driven* — see [my Neural ODE project](https://github.com/sj-nosugar/neutral-ode-double-pendulum) (chaotic double pendulum, physics→data→NODE→MPC) and the planned extension: *Neural ODE for non-Hermitian waveguide dynamics*.
+
+The [`pwe/`](pwe/README.md) module adds the complementary continuous-medium view (2D photonic-crystal band structures via plane-wave expansion) — together with the tight-binding chain and the COMSOL models, the repository covers the full chain from Maxwell's equations to lattice Hamiltonians.
 
 ## Citation
 
